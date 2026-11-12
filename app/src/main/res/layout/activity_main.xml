@@ -11,7 +11,12 @@
         android:text="@string/stop_vpn" />
 
     <Button
-        android:id="@+id/btnUsage"    <EditText
+        android:id="@+id/btnUsage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="مصرف پس‌زمینه" />
+
+    <EditText
         android:id="@+id/editSearch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,9 +24,6 @@
         android:inputType="text"
         android:padding="12dp"
         android:singleLine="true" />
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="مصرف پس‌زمینه" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
